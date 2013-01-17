@@ -7,8 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-@interface AHAppDelegate : NSObject <NSApplicationDelegate>
+#import "AHLayout.h"
+@interface AHAppDelegate : NSObject <NSApplicationDelegate, AHLayoutDataSource>
 
 @property (assign) IBOutlet NSWindow *window;
 

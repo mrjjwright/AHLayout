@@ -1,0 +1,12 @@
+AHLayout is a very simple NSTableView or TUITableView replacement.  It is built on top of the excellent TUIKit, the latest github fork at https://github.com/github/twui.
+
+Download and run the example to see what it can do and how to use it.
+
+It has an API that mimics TUITableView or UITableView fairly closely.  I call it AHLayout because it doesn't have a notion of cells or selection.  It simply lays out views.  I built my own custom selection navigation on top of it for my app and you can do the same pretty easily.  
+
+I built AHLayout for an app I am building so it's used by me every day.  It was a bit of a stretch at first to build it but I am pretty proud of how solid it now is.  The highlight and the reason I use it over NSTableView or TUITableView is that this class can layout horizontally or vertically. 
+
+Also, Like NSTableView it has built in support for insertion, removal, and resizing animations!  See the example for how that works.
+
+It's no UICollectionView but it's a good alternative for the Mac if you need animated updates or a horizontal layouts. 
+
